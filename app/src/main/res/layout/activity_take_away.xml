@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.mfarhandany_1202150094_modul2.TakeAway">
+
+    <TextView
+        android:id="@+id/text_View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_margin_top"
+        android:layout_marginBottom="@dimen/text_margin_bottom"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:text="Identitas Pemesan: " />
+
+    <EditText
+        android:id="@+id/nama_pemesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/text_View"
+        android:inputType="text"
+        android:hint="Nama"/>
+
+    <EditText
+        android:id="@+id/no_hp_pemesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nama_pemesan"
+        android:inputType="phone"
+        android:hint="No. HP"/>
+
+    <EditText
+        android:id="@+id/alamat_pemesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/no_hp_pemesan"
+        android:inputType="text"
+        android:hint="Alamat"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/alamat_pemesan"
+        android:inputType="text"
+        android:hint="Catatan"
+        android:id="@+id/editText" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:text="@string/pilih_pesanan_take_away" />
+
+</RelativeLayout>

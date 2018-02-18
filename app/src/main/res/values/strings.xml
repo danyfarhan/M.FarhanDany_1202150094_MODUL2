@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">M.FARHANDANY_1202150094_MODUL2</string>
+    <string-array name="tables_array">
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+        <item>Meja 3</item>
+        <item>Meja 4</item>
+        <item>Meja 5</item>
+
+    </string-array>
+
+    <string name="pilih_menu">Pilih Menu:</string>
+    <string name="dine_in">Dine in</string>
+    <string name="take_away">Take Away</string>
+    <string name="pesan">Pesan</string>
+    <string name="choose_table_number">Choose Table Number:</string>
+    <string name="detail_customer">Detail Customer:</string>
+    <string name="table_number">Table Number:</string>
+    <string name="pilih_pesanan">Pilih Pesanan</string>
+    <string name="pilih_pesanan_take_away">Pilih pesanan</string>
+</resources>
